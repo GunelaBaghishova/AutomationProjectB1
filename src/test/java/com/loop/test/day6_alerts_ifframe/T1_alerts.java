@@ -62,7 +62,7 @@ public class T1_alerts extends TestBase{
     }
 
         @Test
-        public void promptAlert () {
+        public void   promptAlert () {
        /*
          Prompt alert practice
     1. Click to “Click for JS Prompt” button
