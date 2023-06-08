@@ -37,4 +37,9 @@ public class WebDriverFactory {
 
         }
 
+    public static void invisible(WebDriver driver, int i, String s) {
+    }
+
+    public static void visible(WebDriver driver, int i, String s) {
+    }
 }
