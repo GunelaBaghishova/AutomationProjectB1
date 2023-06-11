@@ -40,8 +40,8 @@ public class T6_registration_form {
         jobTitle.selectByVisibleText("SDET");
         Driver.getDriver().findElement(By.xpath("//input[@value='java']")).click();
         Driver.getDriver().findElement(By.xpath("//button[@id='wooden_spoon']")).click();
-       String actual= Driver.getDriver().findElement(By.xpath("//span[.='This page isn’t working']")).getText();
-        String expected = "This page isn’t working";
+       String actual= Driver.getDriver().findElement(By.xpath("//div[text()='Thanks for signing up!']")).getText();
+        String expected = "Thanks for signing up!";
         Assert.assertEquals(actual,expected);
 
 
